@@ -1,4 +1,4 @@
-# BootstrapSite
+# Portfolio
 
 - A portfolio site containing 3 pages: contact option, portfolio projects, and "about me".
 
