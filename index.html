@@ -13,21 +13,62 @@
 <style>
   body {
     background-image: url(Assets/RoseOnYellow.jpg);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
+
+  nav {
+    z-index: 10; 
+    background-color: rgb(95, 134, 46);
+  }
+
+  .navbar-brand {
+    color: pink; 
+    font-weight: bold"
+  }
+
   .nav-link {
     color: pink;
   }
+
+  .card {
+    max-width: 540px;
+    border-radius: 0;
+    margin-bottom: 350px;
+    background-color: rgb(95, 134, 46);
+  }
+
+  .card-title {
+    font-size: 40px; 
+    font-family: 'satisfy'; 
+    color: rgb(248, 210, 216)
+  }
+
+  .card-text {
+    color:rgb(248, 210, 216); 
+    font-family: 'satisfy'; 
+    font-size:20px;
+  }
+
+  span {
+    float: right; 
+    margin-bottom:10px;
+  }
+
+  footer {
+    border-top: 5px solid rgb(245, 206, 236); 
+    background-color: rgb(241, 142, 180); 
+    margin-top: 180px;
+  }
+
 </style>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark position-sticky top-0"
-    style="z-index: 10; background-color: rgb(95, 134, 46);">
+  <nav class="navbar navbar-expand-lg navbar-dark position-sticky top-0">
     <section class="container-fluid">
-      <a class="navbar-brand ms-3" href="index.html" style="color:pink; font-weight: bold">Tyler</a>
+      <a class="navbar-brand ms-3" href="index.html">Tyler</a>
       <ul class="nav justify-content-end">
         <li class="nav-item">
           <a class="nav-link" href="index.html"><b>About me</b></a>
@@ -45,10 +86,10 @@
 
 
 
-  <main class="card mt-5 mx-4" style="max-width: 540px; border-radius: 0; margin-bottom: 350px; background-color: rgb(95, 134, 46);">
+  <main class="card mt-5 mx-4">
     <section class="container">
-      <h5 class="card-title pt-4 ms-1" style="font-size: 40px; font-family: satisfy; color:rgb(248, 210, 216)">
-        <strong>About me</strong></h5>
+      <h5 class="card-title pt-4 ms-1">
+        <b>About me</b></h5>
       <hr>
       <div class="row g-0">
         <div class="col">
@@ -57,7 +98,7 @@
               width=165px>
           </figure>
           <article class="card-body">
-            <p class="card-text" style="color:rgb(248, 210, 216); font-family: satisfy; font-size:20px">
+            <p class="card-text">
                 Might have watched too much anime in my lifetime, but who's counting. And thanks 
                 to that, I developped a passion for fun food and worked in a restaurant kitchen for 6 months! Now
                 chopping is second nature and my food is fresh half the time!
@@ -67,7 +108,7 @@
                 <br><br>
                 That being said, the world of coding has so many unique amazing people and I'm excited to get to know y'all.
                 <br><br>
-                <span style="float: right; margin-bottom:10px">~Tyler Petri</span>
+                <span>~Tyler Petri</span>
             </p>
           </article>
         </div>
@@ -75,7 +116,7 @@
     </section>
   </main>
 
-  <footer class="position-sticky pt-3 bottom-0" style="border-top: 5px solid rgb(245, 206, 236); background-color: rgb(241, 142, 180); margin-top: 180px;">
+  <footer class="position-sticky pt-3 bottom-0">
     <article class="container d-flex justify-content-center">
         <p style="color:pink">@Copyrighted</p>
     </article>
