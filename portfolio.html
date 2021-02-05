@@ -10,25 +10,55 @@
 </head>
 
 <style>
+     body {
+    background-image: url(Assets/RoseOnYellow.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
     .nav-link {
         color: pink;
         }
+
+    .card {
+        border-radius: 0;
+        max-width: 500px; 
+        background-color: rgb(95, 134, 46)
+    }
+
+    .card-title {
+        font-size: 40px !important; 
+        font-family:'satisfy'; 
+        color:rgb(248, 210, 216) !important
+    }
+
+    h5 {
+        font-family:'satisfy';
+        color: pink;
+    }
+
+    .link {
+        color: rgb(34, 55, 119);
+        font-weight:bold;
+        font-family:'satisfy';
+        font-size:120%;
+    }
 </style>
 
-<body style="background-image: url(Assets/RoseOnYellow.jpg); background-size: 2300px 1300px; background-repeat: no-repeat; height: 500px"> 
+<body>
 
             <nav class="navbar navbar-expand-lg navbar-dark position-sticky top-0" style="z-index: 10; background-color: rgb(95, 134, 46);">
                 <section class="container-fluid">
                     <a class="navbar-brand ms-3" href="index.html" style="color:pink; font-weight: bold">Tyler</a>
                         <ul class="nav justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Contact</a>
+                                <a class="nav-link" href="index.html">About me</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html"><strong>Portfolio</strong></a>
+                                <a class="nav-link" href="portfolio.html"><b>Portfolio</b></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Aboutme.html">About</a>
+                                <a class="nav-link" href="Contact.html">Contact</a>
                             </li>
                         </ul>
                     </section>
@@ -36,17 +66,20 @@
             
     
     
-            <main class="card mt-5 mx-4 mb-3" style="border-radius: 0; max-width: 500px; background-color: rgb(95, 134, 46)">
+            <main class="card mt-5 mx-4 mb-3">
                 <section class="container">
-                <h5 class="card-title pt-4 ms-1" style="font-size: 40px; font-family:satisfy; color:rgb(248, 210, 216)"><strong>Portfolio</strong></h5>
+                <h5 class="card-title pt-4 ms-1"><b>Portfolio</b></h5>
                     <hr>
-                
                     <section class="row">
                         <figure class="col-md-6">
-                            <img class="img-fluid mx-auto my-3 d-block" src="https://via.placeholder.com/350" alt="placeholder"/>
+                            <h5>Quiz project</h5>
+                            <a href="https://github.com/TylerPetri/Code-Quiz.git" class="link">Github repo</a>
+                            <a href="https://tylerpetri.github.io/Code-Quiz/" target="_blank"><img class="img-fluid mx-auto my-3 d-block" src="Assets/Quiz.png" alt="Quiz project"/></a>
                         </figure>
                         <figure class="col-md-6">
-                            <img class="img-fluid mx-auto my-3 d-block" src="https://via.placeholder.com/350" alt="placeholder"/>
+                            <h5>Weather API project</h5>
+                            <a href="https://github.com/TylerPetri/Weather-search-3.0.git" class="link">Github repo</a>
+                            <a href="https://tylerpetri.github.io/Weather-search-3.0/" target="_blank"><img class="img-fluid mx-auto my-3 d-block" src="Assets/WeatherSearch.png" alt="Weather search project"/></a>
                         </figure>
                         <figure class="col-md-6">
                             <img class="img-fluid mx-auto my-3 d-block" src="https://via.placeholder.com/350" alt="placeholder"/>
